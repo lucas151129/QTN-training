@@ -1,0 +1,20 @@
+# Render Blueprint：一個免費 Node 服務，跑「模擬模式」的公開示範站。
+# 用法：Render → New → Blueprint → 選 lucas151129/QTN-training → Apply。
+# 免費方案 15 分鐘無人用會休眠，第一個點連結的人要等約 30–60 秒。
+services:
+  - type: web
+    name: qtn-grading-demo
+    runtime: node
+    plan: free
+    region: singapore
+    rootDir: 程式
+    buildCommand: "echo no-dependencies"
+    startCommand: "node server.js"
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: AI_MODE
+        value: mock
+      - key: SITE_NAME
+        value: 小學英文科 · AI 批改作業平臺

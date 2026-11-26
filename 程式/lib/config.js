@@ -52,6 +52,7 @@ export function loadConfig() {
   if (/貼上|填入|your[_-]?key|xxx/i.test(cfg.ai.apiKey)) cfg.ai.apiKey = '';
   if (env.PORT) cfg.port = Number(env.PORT);
   if (env.DATA_DIR) cfg.dataDir = env.DATA_DIR;
+  if (env.SITE_NAME) cfg.siteName = env.SITE_NAME;
   if (env.AI_API_KEY) cfg.ai.apiKey = env.AI_API_KEY;
   if (env.AI_BASE_URL) cfg.ai.baseUrl = env.AI_BASE_URL;
   if (env.AI_MODEL) cfg.ai.model = env.AI_MODEL;
