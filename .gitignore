@@ -1,0 +1,13 @@
+# 不要把 API Key 或學生資料提交出去
+程式/config.json
+程式/data/
+程式/test/probe-*.png
+!程式/test/sample-essay.png
+程式/test/probe-*
+備份與匯出/backup-*
+備份與匯出/*.zip
+
+# 系統檔
+Thumbs.db
+desktop.ini
+.DS_Store

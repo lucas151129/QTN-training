@@ -1,0 +1,13 @@
+{
+  "name": "ai-homework-grader",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "小學科學科 AI 批改作業平臺（試用版，零外部依賴）",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/e2e.mjs",
+    "backup": "node scripts/backup.mjs"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "六年級英文 · Writing · A Descriptive Paragraph",
+  "subject": "小學英文",
+  "class_name": "6A",
+  "description": "英文科示範：寫作題用 rubric 評「內容／語言／組織」，而不是逐字改文法。",
+  "questions": [
+    {
+      "no": "1",
+      "tag": "Content",
+      "type": "text",
+      "prompt": "Write a paragraph (about 60 words) describing your favourite place in Hong Kong. Use at least three adjectives and one simile.",
+      "points": [
+        { "id": "1-1", "desc": "Describes one specific place with at least two details (sight, sound, smell)", "score": 3 },
+        { "id": "1-2", "desc": "Uses at least three adjectives appropriately", "score": 2 },
+        { "id": "1-3", "desc": "Uses at least one simile (e.g. 'like a ...')", "score": 1 }
+      ]
+    },
+    {
+      "no": "2",
+      "tag": "Language",
+      "type": "text",
+      "prompt": "Check your paragraph: are the verbs in the correct tense? Are the sentences complete?",
+      "points": [
+        { "id": "2-1", "desc": "All sentences have a subject and a verb (no fragments)", "score": 2 },
+        { "id": "2-2", "desc": "Tense is consistent (present tense for description)", "score": 2 },
+        { "id": "2-3", "desc": "Spelling errors do not block understanding", "score": 1 }
+      ]
+    },
+    {
+      "no": "3",
+      "tag": "Organisation",
+      "type": "text",
+      "prompt": "Does your paragraph have a clear opening and a closing sentence?",
+      "points": [
+        { "id": "3-1", "desc": "Opening sentence introduces the place", "score": 1 },
+        { "id": "3-2", "desc": "Uses at least two linking words (because, however, also)", "score": 1 },
+        { "id": "3-3", "desc": "Closing sentence gives a personal feeling", "score": 1 }
+      ]
+    }
+  ]
+}

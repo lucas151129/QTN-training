@@ -1,0 +1,14 @@
+{
+  "port": 8787,
+  "siteName": "小學科學科 · AI 批改作業平臺",
+  "ai": {
+    "mode": "auto",
+    "baseUrl": "https://api.deepseek.com/v1",
+    "apiKey": "在這裡貼上 API Key",
+    "model": "deepseek-chat",
+    "visionModel": "",
+    "timeoutMs": 120000,
+    "maxTokens": 2500,
+    "temperature": 0.1
+  }
+}
